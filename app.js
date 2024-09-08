@@ -39,16 +39,11 @@ function pesquisar() {
                 </h2>
             </div>`;
     }
-    if (!resultados) {
+    /*if (!resultados) {
       resultados = "<h2>Dados não encontrado!</h2>";
-    }
+    }*/
   }
   // Atualiza o conteúdo da seção com os resultados da pesquisa
   section.innerHTML = resultados;
-
-  // Atualiza a página após um curto intervalo de tempo
-  setTimeout(function () {
-    location.reload(); // Recarrega a página
-  }, 1000); // Espera 2 segundos antes de recarregar (ajuste conforme necessário)
 }
 // <img src="${dado.imagem}"> - Pedaço do cód que não teve funcionamento..
