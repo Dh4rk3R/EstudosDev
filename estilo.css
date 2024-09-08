@@ -27,10 +27,11 @@ body {
 
 /* Estiliza os títulos h1 */
 h1 {
-    font-size: 6.0rem; /* Tamanho da fonte */
+    font-size: 5.0rem; /* Tamanho da fonte */
     color: #222831; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
-    letter-spacing: 0.7rem; /* Espaçamento entre letras */
+    letter-spacing: 0.1rem; /* Espaçamento entre letras */
+    margin-bottom: -0.99% ;
 }
 
 img{
