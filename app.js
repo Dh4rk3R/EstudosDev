@@ -8,7 +8,7 @@ function pesquisar() {
 
 
     //Condição par validar se vazio
-    if(!campoPesquisa == ''){
+    if(campoPesquisa == ''){
         section.innerHTML = "<h2> Nada foi encontrado T-T</h2>"
         return
     }
