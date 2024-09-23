@@ -39,9 +39,15 @@ function pesquisar() {
                 </h2>
             </div>`;
     }
+<<<<<<< HEAD:Arquivos/app.js
     // if (!resultados) {
     //   resultados = "<h2>Dados não encontrado!</h2>";
     // }
+=======
+    /*if (!resultados) {
+      resultados = "<h2>Dados não encontrado!</h2>";
+    }*/
+>>>>>>> 108c55dc0f4aa7decac52cb177913afaa8a6ab5d:app.js
   }
   // Atualiza o conteúdo da seção com os resultados da pesquisa
   section.innerHTML = resultados;
